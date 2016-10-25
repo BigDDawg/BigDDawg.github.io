@@ -38,7 +38,7 @@ for (var bottle = 99; bottle > 0; bottle--) {
             + --bottles99 + " bottles of beer on the wall.\n");
     } else if (bottle == 2) {
         console.log(bottle + " bottles of beer on the wall, " + bottle + " bottles of beer.\nTake one down and pass it around, "
-            + --bottles99 + " bottle of beer on the wall, \n\n1 bottle of beer on the wall. 1 bottle of beer.\n" + "Take one down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall. ");
+            + --bottles99 + " bottle of beer on the wall. \n\n1 bottle of beer on the wall, 1 bottle of beer.\n" + "Take one down and pass it around, no more bottles of beer on the wall.\n\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall. ");
     } else if (bottle < 2) {
         break;
     }
